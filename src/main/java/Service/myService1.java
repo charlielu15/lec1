@@ -16,13 +16,13 @@ public class myService1 {
         System.out.println("int1: " + int1);
         System.out.println("int2: " + int2);
 
-//
-//        int[] arr1 = new int[]{1,2,3,4,5};
-//
-//        int[] arr2 = arr1;
-//        arr1[3] = 8;
-//        System.out.println("arr1[3]: " + arr1[3]);
-//        System.out.println("arr2[3]: " + arr2[3]);
+
+        int[] arr1 = new int[]{1,2,3,4,5};
+
+        int[] arr2 = arr1;
+        arr1[3] = 8;
+        System.out.println("arr1[3]: " + arr1[3]);
+        System.out.println("arr2[3]: " + arr2[3]);
 
 //        Person per1 = new Person("Tom", "Cruise", 58);
 //        Person per2 = per1;
